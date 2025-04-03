@@ -1,0 +1,164 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Gidole&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Gidole", sans-serif;
+}
+/* NAV BAR */
+#navbar{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    padding: .3rem 3rem;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0,.5);
+    background-color: rgb(67, 64, 64);
+}
+.navbar .navbar-brand{
+font-size: 25px;
+font-weight: 600;
+color:#07c750 !important;
+}
+#navbarSupportedContent a{
+    color: white;
+    border-bottom: 2px solid transparent;
+}
+#navbarSupportedContent a:hover{
+    color:beige;
+    border-bottom:1px solid #07c750;
+}
+#navbarSupportedContent button{
+    background: #07c750;
+    width: 5rem;
+    border-radius: 10px;
+}
+
+/* HOME PAGE */
+section{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+#home{
+    background-image: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.4)),url("https://img.freepik.com/free-photo/indian-condiments-with-copy-space-view_23-2148723492.jpg?t=st=1743522071~exp=1743525671~hmac=669a95662719aacf1b4f8e85b248e4d2f19048e53c494c8820841612c68dc9ae&w=1380");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  flex-direction: column;
+
+}
+#home h1{
+    font-size: 80px;
+    color: white;
+    letter-spacing: 3px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    text-shadow: 2px 2px 5px black;
+}
+#home p{
+    font-size: 17px;
+    color: white;
+}
+#home .input-group{
+    width: 40%;
+    height: 45px;
+}
+.signin{
+background: #07c750;
+/* color: white; */
+box-shadow: 2px 4px 5px rgba(0, 0, 0,.3); 
+}
+
+/* ABOUT */
+#aboutUs{
+   
+   background: rgb(237, 87, 109);
+}
+#aboutUs h1{
+  font-weight: 800;
+    font-size: 50px;
+    color: white;
+}
+#aboutUs p{
+    font-size: 18px;
+    color: white;
+   
+}
+/* PRODUCTS */
+
+#Product{
+    background:#e5e5e5;
+}
+.rowP{
+    display: flex;
+    gap: 20px;
+}
+#Product h1{
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+#Product img{
+    height: 200px;
+    width: 200px;
+}
+.card{
+    width: 250px;
+    height: 300px;
+    background: #e5e5e5 !important;
+    border: none !important;
+    box-shadow: 15px 20px 20px rgba(0, 0, 0,.1),
+                 inset 4px 4px 10px rgb(248, 245, 245);
+    border-radius: 10px !important;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 60px;
+    transition: .2s;
+}
+.card:hover{
+    box-shadow: 15px 20px 20px rgba(0, 0, 0,.3),
+                 inset 4px 4px 10px rgb(248, 245, 245);
+                 transition: .2s;
+    background: #d8d8d8 !important;
+}
+.rowC{
+    display: flex;
+    gap: 30px;
+}
+.box{
+    width: 90%;
+    /* background: purple; */
+    margin-top: 10px;
+}
+
+#contatc form{
+    display: flex;
+    flex-direction: column;
+}
+#contatc input{
+    margin: 10px 0;
+}
+#contatc textarea{
+    margin: 10px 0;
+}
+
+#contatc img{
+    height: 326px !important;
+}
+
+footer{
+    width: 100%;
+    height: 40px;
+    background: rgb(80, 79, 79);
+    margin-top: -30px;
+    text-align: center;
+    color: white;
+    padding: 5px;
+}
